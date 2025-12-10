@@ -12,6 +12,15 @@ inventario.*/
 
 const inventario = ["cámara", "trípode", "micrófono"];
 
-let nuevoItem01 = prompt("Ingresa los elementos de la lista: ");
-let nuevoItem02 = prompt("Ingresa los elementos de la lista: ");
+let nuevoItem01 = prompt("Ingresa un elemento para la lista del inventario: ");
+let nuevoItem02 = prompt("Ingresa otro elemento para la lista del inventario: ");
+
+let inventarioActualizado = agregarInventario(inventario, nuevoItem01);
+
+console.log(inventario);
+console.log(inventarioActualizado);
+
+let inventarioActualizado02 = agregarInventario(inventarioActualizado, nuevoItem02);
+
+console.log(inventarioActualizado02);
 

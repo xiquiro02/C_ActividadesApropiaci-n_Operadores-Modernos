@@ -5,4 +5,3 @@ export function procesarPedido(pedido, ...extras)
     extras
   }
 }
-// export const procesarPedido = (pedido, ...extras) => ({...pedido, extras });

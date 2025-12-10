@@ -1,6 +1,6 @@
 export function agregarInventario(lista, nuevoItem)
 {
-  return {
-    nuevaLista: []
-  }
+  const nuevaLista = [...lista, nuevoItem];
+  console.log(`Items Actualizados ${nuevaLista.length}`);
+  return nuevaLista;
 }

@@ -22,6 +22,6 @@ let extras01 = prompt("Ingresa los pedidos extras: ");
 let extras02 = prompt("Ingresa los pedidos extras: ");
 let extras03 = prompt("Ingresa los pedidos extras: ");
 
-let { extras } = procesarPedido(pedido, extras01, extras02, extras03);
+let resultado = procesarPedido(pedido, extras01, extras02, extras03);
 
-console.log(extras);
+console.log(resultado);
